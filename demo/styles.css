@@ -76,9 +76,15 @@ body {
       color: #fff;
   }
   
-  .controller-display {
-      width: 100%;
-      height: auto;
+
+  #controller-display {
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+   
+  }
+  .nes {
+      vertical-align: middle;
   }
   #quiz-controls {
       background: #63c5bc;
