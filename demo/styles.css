@@ -9,9 +9,22 @@ body {
     margin-right: 10%;
     border-radius: 20px;
   }
+
+  footer {
+      color: #fff;
+      font-family: arial;
+      text-align: center;
+  }
   h1 {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif
+  }
+  #source {
+      color: #fff;
+      text-decoration: none;
+  }
+  footer {
+      padding-bottom: 30px;
   }
   .faded {
     color: #777;
@@ -78,21 +91,27 @@ body {
   
 
   #controller-display {
-    display:inline-block;
     text-align: center;
     width: 100%;
    
   }
-  .nes {
-      vertical-align: middle;
+/* Media Queries go here */
+@media only screen and (max-width: 700px) {
+    .controller {
+      width: 100px;
+      height: auto;
+     
+    }
   }
-  #quiz-controls {
+  
+  /* #quiz-controls {
       background: #63c5bc;
       color: #111;
       padding: 0.25em 0.5em 0.5em;
       text-align: center;
   }
-  
+  */
+
   #quiz-response {}
   #quiz-results {
       font-size: 1.25em;
@@ -108,10 +127,11 @@ body {
       
   }
   #quiz-buttons a {
-    margin-top: 50%;  
     background: #fff;
       color: #333;
       font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      display: inline-block;
       
   }
   
@@ -124,4 +144,6 @@ body {
   .quiz-results-state #quiz-buttons a {
       background: #88449a;
       color: #fff;
+      
+      
   }

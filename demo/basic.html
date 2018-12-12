@@ -7,7 +7,7 @@
 <body>
   <div id="controller-display">
     <img class="controller" src="images/snes.png" alt="snes-controller">
-    <img id="nes" src="images/nes.png" alt="nes-controller">
+    <img class="controller" src="images/nes.png" alt="nes-controller">
     <img class="controller" src="images/n64.png" alt="n64-controller">
   </div>
 <div id="quiz">
@@ -30,16 +30,18 @@
     counterFormat: 'Question %current of %total',
     questions: [
       {
-        'q': 'A sample question?',
+        'q': 'What do you do for fun?',
         'options': [
-          'Answer one',
-          'Answer 2',
-          'Answer 3',
-          'Answer 4'
+          'Read and/or Learn',
+          'Watch TV',
+          'Play video games of course',
+          'Chill',
+          'Party',
+          'Troll people on the internet',
+          'Play sports'
         ],
         'correctIndex': 1,
-        'correctResponse': 'Custom correct response.',
-        'incorrectResponse': 'Custom incorrect response.'
+        
       },
       {
         'q': 'A smaple question?',
@@ -101,5 +103,7 @@
   });
 </script>
 </body>
-
+<footer>Created by <a id="source" href="www.julianconde.com"><strong>Julian Conde</strong>
+</a>
+</footer>
 </html>
